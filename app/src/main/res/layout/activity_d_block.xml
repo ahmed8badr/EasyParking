@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dBlock"
+    android:background="@drawable/bg">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:columnCount="2"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/d1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d4"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d5"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d6"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d7"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d8"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d9"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/d10"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:backgroundTint="#8BC34A"
+            android:text="D10"
+            android:textSize="20sp" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="168dp"
+        android:text="D Block"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
